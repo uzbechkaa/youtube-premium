@@ -1,0 +1,84 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #9BA4B5;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  background-color: #212A3E;
+  color: white;
+}
+
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .container{
+    width: 100%;
+  }
+  }
+.searchbar {
+  outline: none;
+  border: none;
+  width: 350px;
+  background-color: #212a3e46;
+  color: white;
+  font-weight: 500;
+}
+
+.category-btn {
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  outline: none;
+  padding: 7px 23px;
+  margin: 10px 0;
+  border-radius: 20px;
+  border: none;
+  transition: all .2s ease-in;
+}
+
+.category-btn:hover {
+  background-color: #9BA4B5;
+  color: white !important;
+}
+
+.category-btn:hover span {
+  color: white !important;
+}
+
+.active button {
+  background-color: #9BA4B5;
+  color: #F1F6F9;
+}
+
+.reactplayer {
+  display: block;
+  width: 850px;
+}
+
+.navbar {
+  backdrop-filter: blur(10px);
+  background-color: #212a3ecc;
+  width: 100%;
+}
